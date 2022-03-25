@@ -1,0 +1,25 @@
+Xpath : 
+
+Absolute Xpath : 
+/html/body/header/div/nav/a[1]
+
+Relative Xpath:
+//*[@id="icon"]
+
+
+Syntax : //tagName[@attributeName='attributValue']
+
+//*[@id="Main"]/section[1]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/a/small
+
+
+(//div[@class="resource-box"])[1]//div[@class='row']//a/small
+
+//a[text()='Demo']
+//a[normalize-space()='Demo']
+
+
+
+CCS Selctor :
+
+#valueOfIdAttribute -> ID
+.classValue -> class

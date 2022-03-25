@@ -1,0 +1,21 @@
+package seleniumStart;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class StartSel {
+
+	public static void main(String[] args) {
+		
+		//web driver manger setup
+		WebDriverManager.chromedriver().setup();
+		//driver setup
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://chromedriver.chromium.org/");
+		driver.findElement(By.id("icon")).click();
+		
+	}
+}
