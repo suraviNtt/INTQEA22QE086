@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-26T16:25:06 IST" name="Default suite" finished-at="2022-04-26T16:25:13 IST" duration-ms="7234">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T16:25:06 IST" name="Default test" finished-at="2022-04-26T16:25:13 IST" duration-ms="7234">
+      <class name="project_name.pages.SearchBarPage">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:06 IST" name="openApplication" finished-at="2022-04-26T16:25:11 IST" duration-ms="4677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLoginSuccessWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:11 IST" name="verifyLoginSuccessWithValidCredentials" data-provider="testData" finished-at="2022-04-26T16:25:11 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:11 IST" name="teardown" finished-at="2022-04-26T16:25:11 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:11 IST" name="openApplication" finished-at="2022-04-26T16:25:13 IST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLoginSuccessWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:13 IST" name="verifyLoginSuccessWithValidCredentials" data-provider="testData" finished-at="2022-04-26T16:25:13 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidXYZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:project_name.pages.SearchBarPage@27462a88]" started-at="2022-04-26T16:25:13 IST" name="teardown" finished-at="2022-04-26T16:25:13 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- project_name.pages.SearchBarPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

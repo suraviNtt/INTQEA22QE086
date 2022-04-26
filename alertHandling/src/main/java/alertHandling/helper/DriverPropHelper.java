@@ -11,8 +11,7 @@ public class DriverPropHelper {
 	private static WebDriver driver;
 
 	private static void setUpChrome() {
-		WebDriverManager.chromedriver().setup();
-		
+		WebDriverManager.chromedriver().setup();		
 	}
 
 	private static void setUpFirefox() {
@@ -33,7 +32,7 @@ public class DriverPropHelper {
 			System.out.println("Please select an defined browser");
 			break;
 		}
-		
+		driver.manage().window().maximize();
 		return driver;
 	}
 }

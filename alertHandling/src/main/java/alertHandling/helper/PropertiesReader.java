@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class PropertiesReader {
 
-	private static Properties prop;
+	private Properties prop;
 
 	public PropertiesReader() {
 		try {
@@ -21,24 +21,32 @@ public class PropertiesReader {
 		}
 	}
 
-	public static String getBrowserName() {
+	/**
+	 * 
+	 * @return
+	 */
+	public String getBrowserName() {
 		return prop.getProperty("browser");
 	}
-	
-	public static String getAppURL() {
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String getAppURL() {
 		return prop.getProperty("url");
 	}
-	
-	public static String getHardWait() {
-		return prop.getProperty("hardtime");
+
+	public int getHardWait() {
+		return Integer.parseInt(prop.getProperty("hardtime"));
 	}
 
-	public static String getImplicitWait() {
-		return prop.getProperty("implicit");
+	public long getImplicitWait() {
+		return Long.parseLong(prop.getProperty("implicit"));
 	}
 
-	public static String getExplicitWait() {
-		return prop.getProperty("explicit");
+	public long getExplicitWait() {
+		return Long.parseLong(prop.getProperty("explicit"));
 	}
 
 }
