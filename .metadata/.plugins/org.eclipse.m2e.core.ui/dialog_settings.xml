@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Cognizant\INTQEA-086\ishaHomes\src\test\java\ishahomes\tests\IshaHomes.java"/>
 			<item value="E:\Cognizant\INTQEA-086\alertHandling\src\test\java\ishahomes\tests\IshaHomes.java"/>
 			<item value="E:\Cognizant\INTQEA-086\A\src"/>
 		</list>
@@ -45,14 +46,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="int086"/>
 			<item value="com.ishahomes"/>
 			<item value="qae086"/>
 			<item value="qae86"/>
 			<item value="abc"/>
 		</list>
 		<list key="name">
+			<item value="full project name"/>
 		</list>
 		<list key="artifactId">
+			<item value="project_name"/>
 			<item value="ishaHomes"/>
 			<item value="alertHandling"/>
 			<item value="seleniumStart"/>
