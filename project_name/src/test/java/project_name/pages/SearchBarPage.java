@@ -9,7 +9,11 @@ import org.testng.annotations.Test;
 
 import project_name.tests.Hooks;
 import project_name.utilities.DriverSetup;
-
+/**
+ * 
+ * @author User
+ *
+ */
 public class SearchBarPage extends Hooks {
 
 	HomePage homePage;
@@ -53,6 +57,13 @@ public class SearchBarPage extends Hooks {
 
 	@Test
 	public void verifyLoginFailureWithNullValuesInCredentials() {
+
+		homePage.searchElement("ABCD");
+
+	}
+	
+	@Test
+	public void verifyLoginFailureWithNullValuesInCredential() {
 
 		homePage.searchElement("ABCD");
 
